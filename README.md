@@ -61,6 +61,11 @@ cargo run --release
 - macOS or Linux
 - Logged in via `codex login` (for OAuth token)
 
+## OpenClaw skill wrapper
+
+If you use OpenClaw, the companion skill wrapper is here:
+- https://github.com/davidfindlay/openclaw-codex-usage-skill
+
 ## License
 
 GPL-3.0 (see `LICENSE`).
