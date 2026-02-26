@@ -60,3 +60,19 @@ cargo run --release
 - Rust 1.75+
 - macOS or Linux
 - Logged in via `codex login` (for OAuth token)
+
+## Troubleshooting
+
+- **Only API key found / no usage limits shown**
+  - Run: `codex login`
+  - OAuth session tokens are required for `/wham/usage` limits.
+- **401/403 from usage endpoint**
+  - Run: `codex logout && codex login`
+- **No credentials found**
+  - Check `~/.codex/auth.json` exists or set `CODEX_ACCESS_TOKEN`.
+
+## Privacy & security
+
+- This tool reads local auth credentials to call usage APIs.
+- It does **not** print raw tokens.
+- Avoid sharing screenshots/output publicly if account usage details are sensitive.
