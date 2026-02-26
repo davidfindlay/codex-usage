@@ -61,6 +61,10 @@ cargo run --release
 - macOS or Linux
 - Logged in via `codex login` (for OAuth token)
 
+## License
+
+GPL-3.0 (see `LICENSE`).
+
 ## Troubleshooting
 
 - **Only API key found / no usage limits shown**
